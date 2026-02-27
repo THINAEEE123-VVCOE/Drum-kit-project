@@ -10,19 +10,19 @@ function Button() {
   return (
     <div className="set">
       <button className="w drum" onClick={() => 
-        playSound("/public/sounds/tom-1.mp3")}>w</button>
+        playSound("/sounds/tom-1.mp3")}>w</button>
       <button className="a drum" onClick={() => 
-        playSound("/public/sounds/crash.mp3")}>a</button>
+        playSound("/sounds/crash.mp3")}>a</button>
       <button className="s drum" onClick={() => 
-        playSound("/public/sounds/tom-2.mp3")}>s</button>
+        playSound("/sounds/tom-2.mp3")}>s</button>
       <button className="d drum" onClick={() => 
-        playSound("/public/sounds/snare.mp3")}>d</button>
+        playSound("/sounds/snare.mp3")}>d</button>
       <button className="j drum" onClick={() => 
-        playSound("/public/sounds/tom-3.mp3")}>j</button>
+        playSound("/sounds/tom-3.mp3")}>j</button>
       <button className="k drum" onClick={() => 
-        playSound("/public/sounds/kick-bass.mp3")}>k</button>
+        playSound("/sounds/kick-bass.mp3")}>k</button>
       <button className="l drum" onClick={() => 
-        playSound("/public/sounds/tom-4.mp3")}>l</button>
+        playSound("/sounds/tom-4.mp3")}>l</button>
     </div>
   );
 }
